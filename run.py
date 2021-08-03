@@ -1,5 +1,5 @@
 # rekod mulu anying
-# coded BY Hakiki XF.
+# coded BY Badru XF.
 # py 
 import os,sys,re,json,random,requests,time,uuid
 from time import sleep as waktu
@@ -898,16 +898,16 @@ class asup:
 				waktu(1)
 				print("[!] Mohon Tunggu Sebentar Sayang")
 				open("lo_ngentod/cookie","w").write(self.cok)
-				from kentod_cwek import hakiki,informasi
+				from kentod_cwek import Badru,informasi
 				if "Laporkan Masalah" in cek:
-					mengontol=hakiki.ganteng(zxss(self.cok),self.url)
+					mengontol=Badru.ganteng(zxss(self.cok),self.url)
 					informasi.info(zxss(self.cok),cek).myinfo()
 					mengontol.reaksi()
 					#os.system('xdg-open https://wa.me/628811403654?text=Hai-bang')
 					#waktu(1.09)
 					exit("[✓] Login Berhasil, Jalankan Ulang Tools Nya python run.py")
 				else:
-					mengontol=hakiki.ganteng(zxss(self.cok),self.url)
+					mengontol=Badru.ganteng(zxss(self.cok),self.url)
 					mengontol.lang(zxss(self.cok))
 					informasi.info(zxss(self.cok),cek).myinfo()
 					mengontol.reaksi()
